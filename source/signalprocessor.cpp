@@ -756,7 +756,7 @@ int SignalProcessor::loadAmplifierData(queue<Rhd2000DataBlock> &dataQueue,
                 }
 
                 break;
-
+// this is what I'm going to change
             case SaveFormatFilePerSignalType:
                 int tAux;
                 // Save timestamp data
